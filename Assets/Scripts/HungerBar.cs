@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HungerBar : MonoBehaviour
 {
-    public float hunger = 10;//health = 10
+    public float hunger = 10;//hunger = 10
     public Slider hungerSlider;//create slider
     public SlimeSpawner spawner;//connect spawner
     private bool isSlimeAlive = true;
