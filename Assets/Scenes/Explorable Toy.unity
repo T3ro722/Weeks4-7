@@ -291,10 +291,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 481179879}
+  - {fileID: 705909926}
   - {fileID: 774828629}
   - {fileID: 325708597}
-  - {fileID: 705909926}
-  - {fileID: 481179879}
   - {fileID: 940965247}
   - {fileID: 902764646}
   - {fileID: 139782665}
@@ -999,7 +999,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 481179881}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 139782666}
+        m_TargetAssemblyTypeName: FunBar, Assembly-CSharp
+        m_MethodName: PlaySlime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &481179881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1232,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 705909928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 902764648}
+        m_TargetAssemblyTypeName: HungerBar, Assembly-CSharp
+        m_MethodName: FeedSlime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &705909928
 MonoBehaviour:
   m_ObjectHideFlags: 0

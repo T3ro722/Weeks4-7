@@ -45,6 +45,7 @@ public class HungerBar : MonoBehaviour
         {
             hunger = 10;
             hungerSlider.value = hunger;
+            isSlimeAlive = true;
         }
     }
    public void FeedSlime() //feed slime function

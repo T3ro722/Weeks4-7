@@ -44,6 +44,7 @@ public class FunBar : MonoBehaviour
         {
             fun = 10;
             funSlider.value = fun;
+            isSlimeAlive = true;
         }
     }
     public void PlaySlime() //play with slime function
