@@ -6,7 +6,7 @@ using UnityEngine;
 public class SlimeSpawner : MonoBehaviour
 {
     public GameObject slimePrefab; //slime prefab
-    private GameObject currentSlime; //track slime
+    public GameObject currentSlime; //track slime
     public RectTransform uiAnchor; 
     // Start is called before the first frame update
     void Start()
