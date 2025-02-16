@@ -16,7 +16,7 @@ public class SlimeChangeColour : MonoBehaviour
         {
             slimeSprite.color = Color.white;
         }
-        dropdown.value = 0;
+        dropdown.value = 0;//dropdown is 0
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class SlimeChangeColour : MonoBehaviour
     {
         
     }
-    public void ChangeColour(int index)
+    public void ChangeColour(int index)//change colour function
     {
         // Colour array
         Color[] colors = { Color.white, Color.red, Color.green};
@@ -34,20 +34,20 @@ public class SlimeChangeColour : MonoBehaviour
         {
             Color newColor = colors[index];
 
-            if (slimeSprite == null)
+            if (slimeSprite == null) //if slime does not exist
             {
-                // get current slime
+                //then get current slime
                 slimeSprite = FindObjectOfType<SpriteRenderer>();
             }
 
-            if (slimeSprite != null)
+            if (slimeSprite != null)//if slime does exist
             {
-                slimeSprite.color = Color.white;
-                slimeSprite.color = newColor;
+                slimeSprite.color = Color.white;//set colour to original
+                slimeSprite.color = newColor;//new colour
             }
             else
             {
-                Debug.LogError("No Slime found in the scene!");
+                Debug.LogError("No Slime found in the scene!");//debugging
             }
         }
     }
