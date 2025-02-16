@@ -42,5 +42,6 @@ public class SlimeSpawner : MonoBehaviour
             Destroy(currentSlime);//kill the slime
             currentSlime = null; //reset slime status
         }
-    } 
+    }
+    
 }
